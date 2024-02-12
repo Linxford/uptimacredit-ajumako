@@ -56,4 +56,10 @@
                 }, function () {
                     $(this).find('.dropdown').stop(true, true).delay(200).fadeOut(500);
                 });
-            
+            // <script>
+        // Redirect to URLs without .html extension
+        if (location.pathname.substr(-5) == '.html') {
+            var newURL = location.pathname.slice(0, -5);
+            window.history.replaceState({}, document.title, newURL);
+        }
+    // </script>
