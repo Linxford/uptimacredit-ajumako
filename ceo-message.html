@@ -1,0 +1,231 @@
+<div id="Container">
+	<style>
+.showcase {
+  position: relative;
+  background-size: cover; 
+  z-index:0;  
+}
+
+.bg-image {
+  background: black;
+  opacity: 0.3;
+}
+
+.banner-bg {
+  background: black;
+  /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+  /* opacity: 0.3; */
+}
+
+.banner-bg img {
+  width: 100%;
+  height:200px;
+  /* background: #f8f8f8; */
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.bg-img-title {
+  position: absolute;
+  z-index: 999;
+  top:20px;
+  left: 0;
+  right: 0;
+}
+
+.crumb{
+  /* color:#006b52; */
+  font-weight:400;
+  color:#fff;
+}
+
+
+/*************  Smaller Screen ***********/
+@media screen and (max-width: 640px) {
+  .sm-title-text{
+    font-size:20px!important;
+}
+
+}
+
+
+
+/*************  Big Screen ***********/
+@media screen and (min-width: 640px) {
+
+}
+
+
+</style>
+
+<div class="banner-bg">
+
+<div class="showcase">
+    <div class="bg-img-title text-center justify-content-center mt-4">
+        <h1 class="display-6 fw-bold sm-title-text text-white px-2">CEO Message</h1> 
+        <span class="crumb"><a href="/" class="text-white">Home</a>&nbsp;<span class="foxeed-breadcrumbs-separator"> / </span>&nbsp;<span>CEO Message</span>
+    </span></div>
+
+
+    <img src="/img/2023-05-04-170632iacf3.jpg" class="bg-image" alt="What we do not do">
+    
+</div>
+
+
+
+</div><style>
+.aspect-div {
+    width: 100%;
+    /*height: 200px; */
+    aspect-ratio: 4 / 3; /*----- three column --- */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: center;
+    overflow:show;
+    background: #f00;
+    padding:20px 0px;
+
+}
+
+.aspect-div img {
+    object-fit: contain;
+     width: 560px;
+    /* height: 270px; */
+    max-height: 420px;
+}
+
+
+.otherDetails {
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+
+/* To set icon at the right side of the div*/
+.icon {
+    margin-right: 30px;
+    float: left;
+}
+
+.icon_back{
+    background-color:#000;
+    /* padding:7px;
+    display:block; */
+    font-size:15px; background-color:#000; padding:7px 10px; color:#fff;
+    border-radius:5px;
+}
+
+
+.title-container{
+    height:95px;
+}
+
+.content-container{
+    height:80px;
+}
+
+
+/* Responsive - Smaller Screen */
+@media screen and (max-width: 640px) {
+
+.title-container{
+    height:65px;
+}
+
+.content-container{
+    height:80px;
+}
+
+}
+
+/* Responsive - Big screens */
+@media screen and (min-width: 640px) {
+
+}
+
+</style>
+
+
+
+<div class="container my-5">
+
+    <!-- Page Title -->
+    <!-- <div class="text-center py-3">
+        <h1 class="display-1"></?= $menuDetails->name ?></h1>
+    </div> -->
+    <!-- Page Title Ends Here -->
+
+    <div class="row g-md-5">
+            <!-- Bootstrap Break Points -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 col-xxl-6 mb-3">
+
+            <!-- Content Image -->
+            <div class="aspect-div bg-light reveal fade-left active">
+                <div class="">
+                    <img src="/img/2023-04-25-150854romeo-ceo.png" class="img-responsive img-fluid" alt="">
+                </div>
+            </div>
+            <!-- Content Image Ends Here -->
+
+        </div>
+        <!-- Break Point Ends Here -->
+
+
+        <!-- Start Other Details -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-xl-6 col-xxl-6 mb-3 reveal fade-right active">
+            <!-- Content Title -->
+            <div class="">
+                <h1 class="fw-bold lh-sm">
+                    Message from CEO                </h1>
+            </div>
+            <!-- Content Title Ends Here -->
+
+
+             <!-- Content Caption -->
+             <div class="pt-1 my-3">
+                <h4 class="fw-bold lh-sm">
+                                    </h4>
+            </div>
+            <!-- Content Title Ends Here -->
+
+            
+
+            <!-- Contents -->
+            <div class="mt-4">
+                <p class="lh-base fs-6">
+                    </p><p>5 years and counting, we are excited to serve the average Ghanaian businessman and businesswoman by providing them with our loan facility to grow their businesses and improve their livelihoods.</p>
+
+<p>Welcome to Uptima Credit and MicroFinance House Limited, your best micro-credit institution of choice here in Ghana.</p>
+
+<p>We look forward to doing business with you.</p>
+                    <!-- <//?= $this->Text->truncate(strip_tags($viewDetails->content),400, ['ellipsis' => '...','exact' => false]) ?> -->
+                <p></p>
+            </div>
+            <!-- Contents Ends Here -->
+
+
+
+           
+            <!-- Contents Ends Here -->
+
+
+        </div>
+
+      
+    
+    </div>
+
+
+
+
+
+</div>
+
+
+<!-- Notes   Date: 27/06/2022 
+   1. Main Containers should have bootstrap py of 5.
+   2. All html tags should be placed in a div.
+   3. All html tags should use boostrap classes
+--></div>
