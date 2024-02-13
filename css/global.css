@@ -6,6 +6,40 @@ h5,
 h6 {
     font-family: "ReithSans", Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
+:root {
+    --background-color: #ffffff;
+    /* default light mode background color */
+    --text-color: #000000;
+    /* default light mode text color */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    --background-color: #333333;
+    /* dark mode background color */
+    --text-color: #ffffff;
+    /* dark mode text color */
+}
+/* Marquee */
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+}
+/* Custom Marquee */
+.custom-marquee-1 .js-marquee-wrapper,
+.custom-marquee-1 .js-marquee,
+.custom-marquee-1 .js-marquee>span {
+    display: flex;
+}
+.custom-marquee p {
+    font-size: 500px;
+    font-weight: 600;
+}
 
 p,
 span,

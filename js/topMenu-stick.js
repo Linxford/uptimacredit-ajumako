@@ -63,3 +63,11 @@
             window.history.replaceState({}, document.title, newURL);
         }
     // </script>
+
+    //Darkmode
+const modeToggle = document.getElementById('mode-toggle');
+const body = document.body;
+
+modeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+});
