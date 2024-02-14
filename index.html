@@ -144,7 +144,7 @@
     <!-- <main class="mains"> -->
 
         <!-- Modal -->
-<div class="modal fade" id="valentineModal" tabindex="-1" aria-labelledby="valentineModalLabel" aria-hidden="true">
+<div class="modal fade val_pop" id="val_banner" tabindex="-1" aria-labelledby="valentineModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -168,7 +168,7 @@
 <script>
   // Trigger the modal on page load
   window.onload = function() {
-    var myModal = new bootstrap.Modal(document.getElementById('valentineModal'));
+    var myModal = new bootstrap.Modal(document.getElementById('val_banner'));
     myModal.show();
   };
 </script>
@@ -334,7 +334,7 @@
         </script>
 
                          <!-- Valentine Section start -->
-<div class="val_banner" style="background-image: url('/img/val.jpg'); color: #fff; border-radius: 10px 30px 10px; margin-top: 10px; box-shadow: 50;">
+<div class="val_banner" id="val_banner" style="background-image: url('/img/val.jpg'); color: #fff; border-radius: 10px 30px 10px; margin-top: 10px; box-shadow: 50;">
     <div class="showcase">
         <div class="bg-img-title text-center justify-content-center pt-6 mt-1 mb-3 fs-3">
             <h1 class="display- fw-bold  px-4">Happy Valentine's Day from Uptima Credit!</h1>

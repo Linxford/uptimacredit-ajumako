@@ -71,3 +71,31 @@ const body = document.body;
 modeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
 });
+
+{/* <script> */}
+  // Check if section should be hidden after 24 hours
+  document.addEventListener("DOMContentLoaded", function() {
+    var valBanner = document.getElementById("val_banner");
+    var viewedTimestamp = localStorage.getItem("val_banner_viewed");
+    if (!viewedTimestamp) {
+      // If section has not been viewed, store current timestamp
+      localStorage.setItem("val_banner_viewed", Date.now());
+    } else {
+      // If section has been viewed, check if 24 hours have elapsed
+      var twentyFourHoursInMs = 11 * 60 * 60 * 1000; // 24 hours in milliseconds
+      if (Date.now() - viewedTimestamp > twentyFourHoursInMs) {
+        // If 24 hours have elapsed, hide the section
+        valBanner.style.display = "none";
+      }
+    }
+  });
+{/* </script> */}
+ // Hide elements with class names "val_banner" and "hide_after_five_seconds" after 5 seconds
+//   document.addEventListener("DOMContentLoaded", function() {
+//     var elementsToHide = document.querySelectorAll(".val_pop");
+//     setTimeout(function() {
+//       elementsToHide.forEach(function(element) {
+//         element.style.display = "none";
+//       });
+//     }, 5000); // 5000 milliseconds = 5 seconds
+//   });
