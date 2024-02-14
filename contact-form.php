@@ -1,3 +1,4 @@
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
@@ -20,10 +21,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $name <$email>";
 
     // Send email
-    if (mail($to, $subject, $message_body, $headers)) {
-        echo "Message sent successfully. We will get back to you soon!";
-    } else {
-        echo "Failed to send message. Please try again later.";
+        if (mail($to, $subject, $message_body, $headers)) {
+            $_SESSION['success'] = "Message sent successfully. We will get back to you soon!";
+        } else {
+            $_SESSION['error'] = "Failed to send message. Please try again later.";
+        }
     }
-}
+
+    // Redirect back to the contact form page
+    header("Location: /contact.html");
+    exit;
+
 ?>
