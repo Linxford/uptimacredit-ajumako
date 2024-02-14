@@ -952,11 +952,28 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 
 .banner_bg_cta img {
     width: 100%;
-    height: 400px;
+    height: auto;
     /* background: #f8f8f8; */
     align-items: center;
     justify-content: center;
     object-fit: auto;
+}
+
+.val_banner {
+    background: #F78429;
+    height: 600px;
+    color: #001F58;
+    /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+    /* opacity: 0.3; */
+}
+
+.val_banner img {
+    width: 100%;
+    height: auto;
+    /* background: #f8f8f8; */
+    align-items: center;
+    justify-content: center;
+    /* object-fit: auto; */
 }
 
 .bg-img-title {
@@ -1016,6 +1033,23 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
         object-fit: auto;
     }
 
+    .val_banner {
+    background: #F78429;
+    height: 600px;
+    color: #001F58;
+    /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
+    /* opacity: 0.3; */
+    display: none;
+}
+
+.val_banner img {
+    width: 100%;
+    height: auto;
+    /* background: #f8f8f8; */
+    align-items: center;
+    justify-content: center;
+    /* object-fit: auto; */
+}
 }
 
 /*************  Big Screen ***********/
