@@ -168,6 +168,11 @@
 @media screen and (min-width: 640px) {
 
 }
+
+ /* Style for accordion */
+  .accordion-item {
+    margin-bottom: 10px;
+  }
 </style>
 
 <div class="banner-bg">    
@@ -190,7 +195,7 @@
             <!-- Content Image -->
             <div class="aspect-div-1-col">
                 <div class="">
-                    <img src="//img/uptima-single-logo.png"
+                    <img src="/img/uptima-single-logo.png"
                         class="img-fluid" alt="">      
                 </div>
             </div>
@@ -205,25 +210,69 @@
                 <h1 class="fw-bold lh-sm">
                     Our Services                
                 </h1>
+                <span class="fs-4 fw-bold">Some of the services we render  here as a micro credit company licensed by Bank of Ghana includes:  <hr></span>
             </div>
             <!-- Content Title Ends Here -->            
             <!-- Contents -->
             <div class=" fs-4">
-                <p class="lh-base fs-6">
-                    <!-- <p>We are licensed by Bank of Ghana to operate as a Lending Institution under the Non-Bank Financial Institutions (NBFI) Act.</p> -->
-                    <!-- <//?= $this->Text->truncate(strip_tags($content->content),110,['ellipsis' => '...','exact' => false]) ?> -->
-                    <ol>
-                        <li>We are a micro credit company licensed by Bank of Ghana.</li>
-                        <li>We operate remotely across the country</li>
-                        <li>We only give micro credit loans.</li>
-                        <li>We disburse loans on weekly bases.</li>
-                        <li>We do not take any form of deposit from you</li>
-                        <li>We also run a susu company</li>
-                        <li>We are not a finance house.</li>
-                        <li>We do not take any form of investment from anyone</li>
-                        <li>Our loans comes with a  guarantor and collateral</li>
-                            </ol>
-                </p>
+<style>
+
+  /* Accordion */ .showH{margin:1.7em 0;font-size:1.2rem;line-height:1.7em; text-transform: uppercase;} details.ac{padding:18px 15px; background-color: #F78429;box-shadow:0 5px 35px rgba(0,0,0,.07);margin:20px 0;border-radius:10px} details.ac summary{font-weight:700;cursor:default; display:flex;align-items:baseline; transition:var(--trans-1);cursor:pointer} details.ac summary::before{content:'\203A'; flex:0 0 25px;display:flex;align-items:center;justify-content:flex-start;padding:0 5px; font-weight:400;font-size:1.33rem;color:inherit} details.ac[open] summary{color:var(--linkC)} details.ac:not(.alt)[open] summary::before{transform:rotate(90deg);padding:0 0 0 5px;justify-content:center} details.ac.alt summary::before{content:'\002B'; padding:0 2px} details.ac.alt[open] summary::before{content:'\2212'} details.ac .aC{padding:0 15px;opacity:.9}
+</style>
+
+<!--[ Accordion start ]-->
+<div class='showH'>
+  <!--[ Accordion line 1 ]-->
+  <details class='ac alt'>
+    <summary>Current Account</summary>
+    <div class='aC'>
+      <p>Minimum balance <br> GHC 20.00.</p>
+    </div>
+  </details>
+
+  <!--[ Accordion line 2 ]-->
+  <details class='ac alt'>
+    <summary>Savings Account</summary>
+    <div class='aC'>
+      <p>Minimum balance <br> GHC 20.00.</p>
+    </div>
+  </details>
+   <!--[ Accordion line 3 ]-->
+  <details class='ac alt'>
+    <summary>Susu Account</summary>
+    <div class='aC'>
+      <p>Minimum balance <br> GHC 10.00.</p>
+    </div>
+  </details>
+   <!--[ Accordion line 4 ]-->
+  <details class='ac alt'>
+    <summary>Edwadie Savings</summary>
+    <div class='aC'>
+      <p>Minimum balance <br> GHC 10.00.</p>
+    </div>
+  </details>
+   <!--[ Accordion line 5 ]-->
+  <details class='ac alt'>
+    <summary>Investment</summary>
+    <div class='aC'>
+      <p>Fixed Deposit / Treasury bill.</p>
+      <ol>
+        <li>3 months (90 days)  >>>> 12% P.A</li>
+        <li>6 months (180 days)  >>>> 15% P.A</li>
+        <li>9 months (210 days)  >>>> 17% P.A</li>
+        <li>12 months (365 days)  >>>> 20% P.A</li>
+      </ol>
+    </div>
+  </details>
+   <!--[ Accordion line 6 ]-->
+  <details class='ac alt'>
+    <summary>Loans and more...</summary>
+    <div class='aC'>
+      <p>Contact us for more info...</p>
+    </div>
+  </details>
+</div>
+
             </div>
             <!-- Contents Ends Here -->
         </div>
