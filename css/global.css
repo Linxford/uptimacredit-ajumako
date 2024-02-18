@@ -107,7 +107,7 @@ a:active {
 }
 
 .topbg-color {
-    background-color: #001F58;
+    background-color: #3B3E3D;
 }
 
 .bg-wine {
@@ -437,7 +437,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
     }
 
     .navbar-dark .navbar-toggler {
-        background-color: #001F58 !important;
+        background-color: #3B3E3D !important;
         margin-right: 20px;
     }
 
@@ -571,7 +571,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 
  .button-2 {
      color: #000;
-     border: 3px solid #001F58;
+     border: 3px solid #3B3E3D;
      background-image: -webkit-linear-gradient(30deg, #fff 50%, transparent 50%);
      background-image: linear-gradient(30deg, #fff 50%, transparent 50%);
      background-size: 500px;
@@ -585,7 +585,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
  .button-2:hover {
      background-position: 100%;
      color: #fff;
-     background-color: #001F58;
+     background-color: #3B3E3D;
  }
 
 
@@ -753,7 +753,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 }
 
 .card {
-    border: solid 1px #001F58;
+    border: solid 1px #3B3E3D;
     border-radius: 50px 10px;
     background: rgba(255, 255, 255, 0.1);
     /* Semi-transparent white */
@@ -796,7 +796,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 .card .fas.fa-arrow-right {
     position: absolute;
     bottom: -100px;
-    background-color: #001F58;
+    background-color: #3B3E3D;
     height: 50px;
     width: 50px;
     display: flex;
@@ -825,7 +825,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: #001F58;
+    color: #3B3E3D;
 }
 
 .card .h4 {
@@ -837,13 +837,13 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 }
 
 .container .content .h-6 {
-    color: #001F58;
+    color: #3B3E3D;
     font-weight: 600;
 }
 
 .container .content .btn.btn-primary {
     padding: 15px;
-    background-color: #001F58;
+    background-color: #3B3E3D;
     color: white;
     border-radius: 0px;
     border: none;
@@ -854,7 +854,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 .card:hover .fas.fa-cut,
 .card:hover .fas.fa-people-carry {
     color: gold;
-    background-color: #001F58;
+    background-color: #3B3E3D;
 }
 
 @media (max-width:990px) {
@@ -945,7 +945,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 .banner_bg_cta {
     background: #F78429;
     height: 400px;
-    color: #001F58;
+    color: #3B3E3D;
     /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
     /* opacity: 0.3; */
 }
@@ -962,7 +962,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
 .val_banner {
     background: #F78429;
     height: 600px;
-    color: #001F58;
+    color: #3B3E3D;
     /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
     /* opacity: 0.3; */
 }
@@ -1036,7 +1036,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
     .val_banner {
     background: #F78429;
     height: 600px;
-    color: #001F58;
+    color: #3B3E3D;
     /* background-image: linear-gradient(to left, rgba(0,67,116,0.6) -26.48%, rgba(0,51,102,0.6) 93.52%); */
     /* opacity: 0.3; */
     display: none;
