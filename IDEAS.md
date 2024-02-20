@@ -1,3 +1,40 @@
+# Project Ideas for UPTIMA Enhancement
+
+Create App for Customers to be able to Access their Acoount Balances, Buy airtime, withdraw etc
+
+Create App for Authentic Ghana Card Verification to be used in the banks etc
+
+Create App for Phone Tracking
+
+
+
+
+
+Paa Kwesi Rhule Director
+
+KanKam Enoch Director
+
+Abiire Awineyesema Chairman
+
+Louis Ennison Executive Director
+
+
+Compnay Structure
+
+BOD
+
+CEO/Executive Director
+        Operations          Credit          Audit           Compliance      IT      Marketing/Recovery
+
+        Tellers - Frontline 
+
+                            Micro-Finance   SME Dep't
+
+                            Susu Dep't
+
+
+
+
 # Field Officers App for Customer Management
 
 ## App Structure
@@ -76,3 +113,24 @@ SELECT name as "UPTIMA OFFICERS" FROM officers where office = "Uptima Credit";
 future update should be to have ... the option to download the data as pdf or excel
 
 also, to sync it to firebase/firestore 
+
+
+
+# Social Media Platforms for UPTIMA CREDIT
+
+## Facebook           uptimacreditgh
+
+## Twitter            uptimacreditgh
+
+## Instagram          uptimacreditgh
+
+## Threads            uptimacreditgh
+
+## LinkedIn           uptimacreditgh
+
+
+
+## 0532399653 Joseph LxASDFG
+
+
+
